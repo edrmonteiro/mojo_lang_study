@@ -1,2 +1,10 @@
 # mojo_lang_study
 Mojo programming language study and training. https://docs.modular.com/mojo/programming-manual.html
+
+Mojo is a programming language that is as easy to use as Python but with the performance of C++ and Rust. Furthermore, Mojo provides the ability to leverage the entire Python library ecosystem.
+
+Mojo achieves this feat by utilizing next-generation compiler technologies with integrated caching, multithreading, and cloud distribution technologies. Furthermore, Mojo’s autotuning and compile-time metaprogramming features allow you to write code that is portable to even the most exotic hardware.
+
+More importantly, Mojo allows you to leverage the entire Python ecosystem so you can continue to use tools you are familiar with. Mojo is designed to become a superset of Python over time by preserving Python’s dynamic features while adding new primitives for systems programming. These new system programming primitives will allow Mojo developers to build high-performance libraries that currently require C, C++, Rust, CUDA, and other accelerator systems. By bringing together the best of dynamic languages and systems languages, we hope to provide a unified programming model that works across levels of abstraction, is friendly for novice programmers, and scales across many use cases from accelerators through to application programming and scripting.
+
+This document is an introduction to the Mojo programming language, fit for consumption by Mojo programmers. It assumes knowledge of Python and systems programming concepts but it does not expect the reader to be a compiler nerd. At the moment, Mojo is still a work in progress and the documentation is targeted to developers with systems programming experience. As the language grows and becomes more broadly available, we intend for it to be friendly and accessible to everyone, including beginner programmers. It’s just not there today.
